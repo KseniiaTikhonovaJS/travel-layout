@@ -1,0 +1,17 @@
+.logo {
+  max-width: 176px;
+  max-height: 62px;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+      max-height: 52px;
+    }
+  }
+
+@media screen and (max-width: 320px) {
+  .logo {
+    max-width: 142px;
+    max-height: 42px;
+  }
+}
